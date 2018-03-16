@@ -1,11 +1,11 @@
 name: generate-cr
 version: 0.1.0
 
-# authors:
-#   - name <email@example.com>
+authors:
+  - Yacine Petitprez <anykeyh@gmail.com>
 
-# description: |
-#   Short description of generate-cr
+description: |
+  Create project generators, wizard etc..
 
 # dependencies:
 #   pg:
@@ -16,4 +16,4 @@ version: 0.1.0
 #   webmock:
 #     github: manastech/webmock.cr
 
-# license: MIT
+license: MIT
