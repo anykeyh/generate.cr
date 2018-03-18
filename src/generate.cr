@@ -1,4 +1,4 @@
 module Generate
 end
 
-require "./generate/*"
+require "./generate/generator"

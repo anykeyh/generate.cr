@@ -11,14 +11,12 @@ describe "Generate.cb" do
 
     generator.in_directory("sample") do
       generator.file "sample_file.cr", <<-RUBY
-        def test
-          $simple_test
-        end
+        hello_world
       RUBY
 
       generator.file "sample_file.cr", <<-RUBY
         def test
-          $simple_test with change
+          <%= opts['simple_test'] %> with change
         end
       RUBY
     end

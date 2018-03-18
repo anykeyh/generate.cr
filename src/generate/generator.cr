@@ -1,3 +1,7 @@
+require "./diff"
+require "./template"
+require "./terminal"
+
 module Generate
   class Generator
     property target_directory : String = "."

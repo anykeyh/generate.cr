@@ -2,14 +2,10 @@ require "tempfile"
 
 module Generate
   module Template
+    # For now, I disable the template system
+    # Just use ERB
     def self.render(string, hash)
-      string.gsub(/(^|[^\$])(\$([A-Z_a-z0-9\.]+))/) do |str, match|
-        if hash[match[3]]?
-          match[1] + hash[match[3]]
-        else
-          ""
-        end
-      end
+      string
     end
   end
 end

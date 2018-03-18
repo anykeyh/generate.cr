@@ -8,7 +8,7 @@ module Diff
     File.write(b.path, string_b)
 
     begin
-      system("diff -u #{a.path} #{b.path} | more")
+      system("diff -u #{b.path} #{a.path} | more")
     ensure
       a.unlink
       b.unlink
