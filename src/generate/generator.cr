@@ -14,11 +14,11 @@ module Generate
       @variables.[]=(key, value)
     end
 
-    def [](key, value)
+    def [](key)
       @variables.[](key, value)
     end
 
-    def []?(key, value)
+    def []?(key)
       @variables.[]?(key, value)
     end
 
