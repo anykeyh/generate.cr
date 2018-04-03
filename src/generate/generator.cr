@@ -15,11 +15,11 @@ module Generate
     end
 
     def [](key)
-      @variables.[](key, value)
+      @variables.[](key)
     end
 
     def []?(key)
-      @variables.[]?(key, value)
+      @variables.[]?(key)
     end
 
     # Generate a file from a string
