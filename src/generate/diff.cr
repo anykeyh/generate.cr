@@ -10,8 +10,8 @@ module Diff
     begin
       system("diff -u #{b.path} #{a.path} | more")
     ensure
-      a.unlink
-      b.unlink
+      a.delete
+      b.delete
     end
   end
 end
