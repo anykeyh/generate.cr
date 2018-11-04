@@ -1,5 +1,3 @@
-require "tempfile"
-
 module Generate
   module Template
     # For now, I disable the template system
